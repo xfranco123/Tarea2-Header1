@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Poppins:wght@100&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+:root {
+  --color-botones: #21dbc1;
+}
+
+.container {
+  width: 75%;
+  max-width: px;
+  margin: 0 auto;
+}
+
+.cnt-header {
+  margin-top: 25rem;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.nav-cnt ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  letter-spacing: 1px;
+}
+
+.nav-cnt a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-cnt a:hover {
+  border-bottom: 3px solid var(--color-botones);
+  transition: all 0.1s ease;
+  border-radius: 3px;
+}
+
+.btn-cnt ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.a1 {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.a1:hover {
+  color: rgb(187, 185, 185);
+  transition: all 0.1s ease;
+}
+
+.a2 {
+  text-decoration: none;
+  color: white;
+  background-color: var(--color-botones);
+  padding: 9px 20px 9px 20px;
+  border-radius: 10px;
+  transition: all 0.1s ease;
+}
+
+.a2:hover {
+  color: black;
+  background-color: #1ab19c;
+}
