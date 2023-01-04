@@ -10,19 +10,24 @@
   --color-botones: #21dbc1;
 }
 
+body {
+  background-color: rgb(218, 210, 210);
+}
+
 .container {
   width: 75%;
-  max-width: px;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
 .cnt-header {
   margin-top: 25rem;
-  background-color: bisque;
   display: flex;
   justify-content: space-between;
   height: 80px;
   align-items: center;
+  background-color: white;
+  padding: 0 50px;
 }
 
 .nav-cnt ul {
@@ -75,4 +80,14 @@
 .a2:hover {
   color: black;
   background-color: #1ab19c;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 100%;
+  }
+
+  .cnt-header {
+    width: 100%;
+  }
 }
